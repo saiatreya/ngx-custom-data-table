@@ -1,0 +1,34 @@
+{
+  "name": "ngx-custom-data-table",
+  "version": "0.0.3",
+  "keywords": [
+    "primeng",
+    "tables",
+    "dynamic tables"
+  ],
+  "license": "MIT",
+  "author": "Niranjan",
+  "email": "niranjan.exe@gmail.com",
+  "peerDependencies": {
+    "@angular/common": "^8.2.0",
+    "@angular/core": "^8.2.0",
+    "@angular/cdk": "^8.2.3",
+    "primeicons": "^1.0.0",
+    "primeng": "^8.1.1",
+    "primeflex": "^1.0.0-rc.1",
+    "@angular/forms": "~8.2.14"
+  },
+  "main": "bundles/ngx-custom-data-table.umd.js",
+  "module": "fesm5/ngx-custom-data-table.js",
+  "es2015": "fesm2015/ngx-custom-data-table.js",
+  "esm5": "esm5/ngx-custom-data-table.js",
+  "esm2015": "esm2015/ngx-custom-data-table.js",
+  "fesm5": "fesm5/ngx-custom-data-table.js",
+  "fesm2015": "fesm2015/ngx-custom-data-table.js",
+  "typings": "ngx-custom-data-table.d.ts",
+  "metadata": "ngx-custom-data-table.metadata.json",
+  "sideEffects": false,
+  "dependencies": {
+    "tslib": "^1.9.0"
+  }
+}
