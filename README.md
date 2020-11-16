@@ -2,6 +2,9 @@
 
 This library is used to generate dynamic custom tables for angular application. 
 
+## Demo
+Please follow this [Demo url](https://saiatreya.github.io/ngx-custom-data-table/)
+
 ## Features
 
 Based on the json input we can do the following:
