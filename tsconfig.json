@@ -17,7 +17,15 @@
     "lib": [
       "es2018",
       "dom"
-    ]
+    ],
+    "paths": {
+      "ngx-custom-data-table": [
+        "dist/ngx-custom-data-table"
+      ],
+      "ngx-custom-data-table/*": [
+        "dist/ngx-custom-data-table/*"
+      ]
+    }
   },
   "angularCompilerOptions": {
     "fullTemplateTypeCheck": true,

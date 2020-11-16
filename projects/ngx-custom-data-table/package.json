@@ -1,0 +1,21 @@
+{
+  "name": "ngx-custom-data-table",
+  "version": "0.0.3",
+  "keywords": [
+    "primeng",
+    "tables",
+    "dynamic tables"
+  ],
+  "license": "MIT",
+  "author": "Niranjan",
+  "email": "niranjan.exe@gmail.com",
+  "peerDependencies": {
+    "@angular/common": "^8.2.0",
+    "@angular/core": "^8.2.0",
+    "@angular/cdk": "^8.2.3",
+    "primeicons": "^1.0.0",
+    "primeng": "^8.1.1",
+    "primeflex": "^1.0.0-rc.1",
+    "@angular/forms": "~8.2.14"
+  }
+}

@@ -124,6 +124,41 @@
           }
         }
       }
+    },
+    "ngx-custom-data-table": {
+      "projectType": "library",
+      "root": "projects/ngx-custom-data-table",
+      "sourceRoot": "projects/ngx-custom-data-table/src",
+      "prefix": "lib",
+      "architect": {
+        "build": {
+          "builder": "@angular-devkit/build-ng-packagr:build",
+          "options": {
+            "tsConfig": "projects/ngx-custom-data-table/tsconfig.lib.json",
+            "project": "projects/ngx-custom-data-table/ng-package.json"
+          }
+        },
+        "test": {
+          "builder": "@angular-devkit/build-angular:karma",
+          "options": {
+            "main": "projects/ngx-custom-data-table/src/test.ts",
+            "tsConfig": "projects/ngx-custom-data-table/tsconfig.spec.json",
+            "karmaConfig": "projects/ngx-custom-data-table/karma.conf.js"
+          }
+        },
+        "lint": {
+          "builder": "@angular-devkit/build-angular:tslint",
+          "options": {
+            "tsConfig": [
+              "projects/ngx-custom-data-table/tsconfig.lib.json",
+              "projects/ngx-custom-data-table/tsconfig.spec.json"
+            ],
+            "exclude": [
+              "**/node_modules/**"
+            ]
+          }
+        }
+      }
     }},
   "defaultProject": "tableLibraryApp"
 }
